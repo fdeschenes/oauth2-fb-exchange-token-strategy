@@ -1,6 +1,6 @@
 # OAuth2 Strategy for Facebook Long-Lived User Access Tokens
 
-[![Gem Version](https://badge.fury.io/rb/oauth2-fb-exchange-token-strategy.svg)](https://badge.fury.io/rb/oauth2-fb-exchange-token-strategy)
+[![Gem Version](https://badge.fury.io/rb/oauth2_fb_exchange_token_strategy.svg)](https://badge.fury.io/rb/oauth2_fb_exchange_token_strategy)
 [![Coverage Status](https://coveralls.io/repos/github/fdeschenes/oauth2-fb-exchange-token-strategy/badge.svg?branch=master)](https://coveralls.io/github/fdeschenes/oauth2-fb-exchange-token-strategy?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/34355bd39e55a168918a/maintainability)](https://codeclimate.com/github/fdeschenes/oauth2-fb-exchange-token-strategy/maintainability)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
