@@ -1,9 +1,9 @@
 # OAuth2 Strategy for Facebook Long-Lived User Access Tokens
 
 [![Gem Version](https://badge.fury.io/rb/oauth2-fb-exchange-token-strategy.svg)](https://badge.fury.io/rb/oauth2-fb-exchange-token-strategy)
+[![Coverage Status](https://coveralls.io/repos/github/fdeschenes/oauth2-fb-exchange-token-strategy/badge.svg?branch=master)](https://coveralls.io/github/fdeschenes/oauth2-fb-exchange-token-strategy?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/34355bd39e55a168918a/maintainability)](https://codeclimate.com/github/fdeschenes/oauth2-fb-exchange-token-strategy/maintainability)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffdeschenes%2Foauth2-fb-exchange-token-strategy.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffdeschenes%2Foauth2-fb-exchange-token-strategy?ref=badge_shield)
 
 As per Facebook, default User and Page access tokens are short-lived, expiring in hours, however, you can [exchange a short-lived token for a long-lived token](https://developers.facebook.com/docs/facebook-login/access-tokens/refreshing/).
 
