@@ -1,3 +1,6 @@
+require 'coveralls'
+Coveralls.wear!
+
 require 'bundler/setup'
 require 'oauth2'
 require 'oauth2_fb_exchange_token_strategy'
