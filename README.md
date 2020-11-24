@@ -29,6 +29,6 @@ require 'oauth2_fb_exchange_token_strategy'
 client = OAuth2::Client.new('client_id', 'client_secret', site: 'https://graph.facebook.com/v9.0', authorize_url: 'https://www.facebook.com/v8.0/dialog/oauth', token_url: 'oauth/access_token')
 
 short_lived_token = client.auth_code.get_token('authorization_code_value', redirect_uri: 'http://example.org/oauth2/callback')
-token = client.fb_exchange_token(short_lived_token.token)
+token = client.fb_exchange_token.get_token(short_lived_token.token)
 # => OAuth2::AccessToken
 ```
